@@ -699,9 +699,6 @@
         flex-direction: column;
         display: none;
     }
-    .hamburger{
-        outline: none;
-    }
 
     .tr_8 {
         flex-direction: column;
