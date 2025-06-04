@@ -32,6 +32,7 @@
     font-size: 20px;
     font-weight: 400;
     color: rgb(0, 0, 0);
+     outline: none;
 }
 
 .tr_3 {
@@ -47,6 +48,7 @@
     font-weight: 400;
     color: rgb(0, 0, 0);
     text-decoration: none;
+     outline: none;
 }
 
 .tr_5 {
@@ -55,6 +57,7 @@
     font-weight: 400;
     color: rgb(0, 0, 0);
     text-decoration: none;
+     outline: none;
 }
 
 .tr_6 {
@@ -63,6 +66,7 @@
     font-weight: 400;
     color: rgb(0, 0, 0);
     text-decoration: none;
+     outline: none;
 }
 
 .tr_4:hover,
@@ -98,6 +102,7 @@
     text-decoration: none;
     /* margin-top: -20%; */
     text-wrap: nowrap;
+     outline: none;
 
 }
 
@@ -154,6 +159,8 @@
     margin-left: 15%;
     margin-bottom: 10%;
     text-decoration: none;
+    cursor: pointer;
+    outline: none;
 }
 
 .tr_11 {
@@ -162,6 +169,7 @@
     font-weight: 200;
     color: #DFDFDF;
     text-decoration: none;
+
 }
 
 .tr_11:hover,
@@ -473,6 +481,8 @@
     font-weight: 300;
     color: rgb(223, 223, 223);
     text-decoration: none;
+    cursor: pointer;
+    outline: none;
 }
 
 .tr_28_5:hover,
@@ -505,6 +515,8 @@
     color: rgb(255, 255, 255);
     text-decoration: none;
     padding-top: 35%;
+    cursor: pointer;
+    outline: none;
 }
 
 .tr_29_2 {
@@ -514,6 +526,8 @@
     color: rgb(255, 255, 255);
     text-decoration: none;
     padding-top: 35%;
+    cursor: pointer;
+    outline: none;
 }
 
 .tr_29_3 {
@@ -523,6 +537,8 @@
     color: rgb(255, 255, 255);
     text-decoration: none;
     padding-top: 35%;
+    cursor: pointer;
+    outline: none;
 }
 
 .tr_29_4 {
@@ -532,6 +548,8 @@
     color: rgb(255, 255, 255);
     text-decoration: none;
     padding-top: 35%;
+    cursor: pointer;
+    outline: none;
 }
 
 .tr_29_1:hover,
@@ -562,7 +580,8 @@
 
 .tr_13 {
     display: flex;
-
+    cursor: pointer;
+    outline: none;
     gap: 10%;
 
 }
@@ -595,7 +614,8 @@
     font-size: 24px;
     background: white;
     border: none;
-    /* cursor: pointer; */
+    cursor: pointer;
+    outline: none;
 }
 
 /* Mobile Menu Styles */
@@ -622,13 +642,16 @@
     font-size: 24px;
     background: none;
     border: none;
-    /* cursor: pointer; */
+    cursor: pointer;
+    outline: none;
 }
 
 .mobile-menu nav ul {
     list-style: none;
     padding: 0;
     margin-top: 2rem;
+    cursor: pointer;
+    outline: none;
 }
 
 .mobile-menu nav li {
@@ -649,6 +672,7 @@
     border: none;
     cursor: pointer;
     font-size: 16px;
+     outline: none;
 }
 
 
@@ -740,6 +764,8 @@
         display: flex;
         gap: 15%;
         margin-left: -35%;
+        outline: none;
+        cursor: pointer;
     }
 
     .mobile_4 {
