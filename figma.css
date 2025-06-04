@@ -668,6 +668,9 @@
         justify-content: space-between;
         padding: 5% 5%;
     }
+    .mobile-menu{
+        background-color: none;
+    }
     .tr_3 {
         flex-direction: column;
         display: none;
@@ -741,6 +744,12 @@
     }
     .mobile_3{
         padding-bottom: 5%;
+    }
+    .tr_28_5{
+        align-items: center;
+    }
+    .tr_28_5{
+        align-items: center;
     }
    
 }
