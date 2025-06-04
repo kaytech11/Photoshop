@@ -32,7 +32,7 @@
     font-size: 20px;
     font-weight: 400;
     color: rgb(0, 0, 0);
-     outline: none;
+    outline: none;
 }
 
 .tr_3 {
@@ -48,7 +48,7 @@
     font-weight: 400;
     color: rgb(0, 0, 0);
     text-decoration: none;
-     outline: none;
+    outline: none;
 }
 
 .tr_5 {
@@ -57,7 +57,7 @@
     font-weight: 400;
     color: rgb(0, 0, 0);
     text-decoration: none;
-     outline: none;
+    outline: none;
 }
 
 .tr_6 {
@@ -66,7 +66,7 @@
     font-weight: 400;
     color: rgb(0, 0, 0);
     text-decoration: none;
-     outline: none;
+    outline: none;
 }
 
 .tr_4:hover,
@@ -102,7 +102,7 @@
     text-decoration: none;
     /* margin-top: -20%; */
     text-wrap: nowrap;
-     outline: none;
+    outline: none;
 
 }
 
@@ -672,7 +672,7 @@
     border: none;
     cursor: pointer;
     font-size: 16px;
-     outline: none;
+    outline: none;
 }
 
 
@@ -698,6 +698,9 @@
     .tr_3 {
         flex-direction: column;
         display: none;
+    }
+    .hamburger{
+        outline: none;
     }
 
     .tr_8 {
