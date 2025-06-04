@@ -650,7 +650,7 @@
     list-style: none;
     padding: 0;
     margin-top: 2rem;
-    cursor: pointer;
+
     outline: none;
 }
 
@@ -747,6 +747,7 @@
         background-color: black;
         justify-content: center;
         align-items: center;
+        padding-bottom: 5%;
     }
 
     .mobile_1 {
