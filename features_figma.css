@@ -94,6 +94,7 @@
     text-decoration: none; 
     margin-top: -1%;
 }
+
 .sec_2{
     max-width: 100%;
     margin: 0% auto;
@@ -433,6 +434,91 @@
    font-weight: 400;
    color: rgb(255, 255, 255); 
 }
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* padding: 1rem; */
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    display: none
+}
+
+.hamburger {
+    font-size: 24px;
+    background: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Mobile Menu Styles */
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+    transition: transform 0.3s ease-in-out;
+}
+
+.hidden {
+    display: none;
+}
+
+.close-btn {
+    align-self: flex-end;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.mobile-menu nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 2rem;
+}
+
+.mobile-menu nav li {
+    margin: 1.5rem 0;
+    font-size: 20px;
+}
+
+.mobile-menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.invite-btn {
+    margin-top: auto;
+    padding: 1rem;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+
+@media (min-width: 1024px) {
+    .hamburger {
+        display: none;
+    }
+    .sec_7{
+        display: none;
+    }
+
+}
+
 @media only screen and (max-width:1000px) {
     .tr_3_1{
         flex-direction: column;
@@ -449,6 +535,14 @@
     .tr_26{
         flex-direction: column;
         height: 10%;
+    }
+    .tr_7_1 {
+        display: none;
+    }
+    .sec_1 {
+        display: flex;
+        justify-content: space-between;
+        padding: 5% 5%;
     }
     /* .tr_18{
         flex-direction: column-reverse;
