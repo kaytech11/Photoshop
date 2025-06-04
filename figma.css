@@ -605,6 +605,7 @@
     left: 0;
     width: 100%;
     height: 100vh;
+    background: white;
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -716,8 +717,7 @@
     }
     .sec_7{
         background-color: black;
-        justify-content: center;
-        align-items: center;
+        
     }
     .mobile_1{
         display: block;
