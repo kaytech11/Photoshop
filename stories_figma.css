@@ -751,8 +751,6 @@
 
     .mobile_3_1 {
         display: block;
-        margin-top: 25%;
-        padding-bottom: 10%;
         justify-items: center;
     }
 
@@ -770,6 +768,9 @@
 
     .tr_29_4 {
         padding-top: 20%;
+    }
+    .tr_11_1 {
+        margin-top: 20%;
     }
 
 }

@@ -593,7 +593,7 @@
 
 .hamburger {
     font-size: 24px;
-    background: none;
+    background: white;
     border: none;
     cursor: pointer;
 }
@@ -738,8 +738,6 @@
     }
     .mobile_3_1{
         display: block;
-        margin-top: 25%;
-        padding-bottom: 10%;
         justify-items: center;
     }
     .mobile_3{
@@ -751,117 +749,3 @@
 
 
 
-/* @media only screen and (max-width:300px) {
-    .tr_1_1 {
-        margin-right: 35%;
-        margin-left: -50%;
-        margin-top: 10%;
-    }
-
-    .tr_3 {
-        flex-direction: column;
-        display: none;
-    }
-
-    .tr_8 {
-        flex-direction: column;
-        padding-top: 8%;
-    }
-
-    .sec_2_1 {
-        flex-direction: column-reverse;
-    }
-
-    .sec_3_1 {
-        flex-direction: column;
-    }
-
-    .tr_18 {
-        flex-direction: column-reverse;
-    }
-
-    .tr_20 {
-        flex-direction: column;
-    }
-
-    .tr_22_1 {
-        flex-direction: column;
-    }
-
-    .tr_28 {
-        flex-direction: column;
-    }
-
-    .sec_5 {
-        flex-direction: column;
-        margin-bottom: 3%;
-        margin-top: 12%;
-        justify-items: center;
-
-    }
-
-    .tr_28_2 {
-        margin-left: 30%;
-        padding-top: 15%;
-    }
-
-    .tr_29 {
-        padding-top: 55%;
-        margin-left: 45%;
-    }
-
-    .tr_29_2 {
-        margin-top: 25%;
-    }
-
-    .tr_29_3 {
-        margin-top: 25%;
-    }
-
-    .tr_29_4 {
-        margin-top: 25%;
-    }
-
-    .tr_28_4 {
-        margin-left: 6%;
-    }
-
-    .tr_30 {
-        padding-bottom: 5%;
-    }
-
-    .tr_13 {
-        margin-top: -40%;
-        margin-left: 13%;
-        gap: 20%;
-    }
-
-    .tr_7_1 {
-        display: none;
-    }
-
-    .sec_1 {
-        display: flex;
-        justify-content: space-between;
-      
-    }
-
-    .tr_28_4 {}
-
-    .tr_31 {
-        margin-top: 30%;
-        margin-left: -70%;
-        margin-right: 20%;
-    }
-
-
-
-} */
-
-/* @media only screen and (max-width:700px) {
-    .sec_5{
-        flex-direction: column;
-        margin-bottom: 15%;
-        
-    }
-} */
